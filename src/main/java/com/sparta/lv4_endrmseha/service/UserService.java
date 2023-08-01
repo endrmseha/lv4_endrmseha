@@ -1,6 +1,7 @@
 package com.sparta.lv4_endrmseha.service;
 
 import com.sparta.lv4_endrmseha.dto.AuthRequestDto;
+import com.sparta.lv4_endrmseha.entity.User;
 import com.sparta.lv4_endrmseha.entity.UserRoleEnum;
 import com.sparta.lv4_endrmseha.repository.UserRepository;
 import lombok.RequiredArgsConstructor;

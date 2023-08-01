@@ -2,6 +2,8 @@ package com.sparta.lv4_endrmseha.service;
 
 import com.sparta.lv4_endrmseha.dto.CommentRequestDto;
 import com.sparta.lv4_endrmseha.dto.CommentResponseDto;
+import com.sparta.lv4_endrmseha.entity.Comment;
+import com.sparta.lv4_endrmseha.entity.User;
 
 public interface CommentService {
 

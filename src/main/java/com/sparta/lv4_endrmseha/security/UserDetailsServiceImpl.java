@@ -1,5 +1,6 @@
 package com.sparta.lv4_endrmseha.security;
 
+import com.sparta.lv4_endrmseha.entity.User;
 import com.sparta.lv4_endrmseha.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

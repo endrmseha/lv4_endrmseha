@@ -5,6 +5,7 @@ import com.sparta.lv4_endrmseha.jwt.JwtAuthorizationFilter;
 import com.sparta.lv4_endrmseha.jwt.JwtUtil;
 import com.sparta.lv4_endrmseha.security.UserDetailsServiceImpl;
 import lombok.RequiredArgsConstructor;
+import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

@@ -2,13 +2,16 @@ package com.sparta.lv4_endrmseha.service;
 
 import com.sparta.lv4_endrmseha.dto.CommentRequestDto;
 import com.sparta.lv4_endrmseha.dto.CommentResponseDto;
+import com.sparta.lv4_endrmseha.entity.Comment;
 import com.sparta.lv4_endrmseha.entity.CommentLike;
 import com.sparta.lv4_endrmseha.entity.Post;
+import com.sparta.lv4_endrmseha.entity.User;
 import com.sparta.lv4_endrmseha.repository.CommentLikeRepository;
 import com.sparta.lv4_endrmseha.repository.CommentRepository;
 import com.sun.jdi.request.DuplicateRequestException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
 

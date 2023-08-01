@@ -4,6 +4,7 @@ import com.sparta.lv4_endrmseha.dto.PostListResponseDto;
 import com.sparta.lv4_endrmseha.dto.PostRequestDto;
 import com.sparta.lv4_endrmseha.dto.PostResponseDto;
 import com.sparta.lv4_endrmseha.entity.Post;
+import com.sparta.lv4_endrmseha.entity.User;
 
 public interface PostService {
     /**

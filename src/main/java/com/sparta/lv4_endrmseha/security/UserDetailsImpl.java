@@ -1,5 +1,6 @@
 package com.sparta.lv4_endrmseha.security;
 
+import com.sparta.lv4_endrmseha.entity.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

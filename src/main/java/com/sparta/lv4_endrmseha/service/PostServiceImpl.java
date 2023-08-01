@@ -5,11 +5,13 @@ import com.sparta.lv4_endrmseha.dto.PostRequestDto;
 import com.sparta.lv4_endrmseha.dto.PostResponseDto;
 import com.sparta.lv4_endrmseha.entity.Post;
 import com.sparta.lv4_endrmseha.entity.PostLike;
+import com.sparta.lv4_endrmseha.entity.User;
 import com.sparta.lv4_endrmseha.repository.PostLikeRepository;
 import com.sparta.lv4_endrmseha.repository.PostRepository;
 import com.sun.jdi.request.DuplicateRequestException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,6 +1,8 @@
 package com.sparta.lv4_endrmseha.aop;
 
+import com.sparta.lv4_endrmseha.entity.Comment;
 import com.sparta.lv4_endrmseha.entity.Post;
+import com.sparta.lv4_endrmseha.entity.User;
 import com.sparta.lv4_endrmseha.entity.UserRoleEnum;
 import com.sparta.lv4_endrmseha.security.UserDetailsImpl;
 import lombok.extern.slf4j.Slf4j;

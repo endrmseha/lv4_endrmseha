@@ -1,6 +1,8 @@
 package com.sparta.lv4_endrmseha.repository;
 
+import com.sparta.lv4_endrmseha.entity.Comment;
 import com.sparta.lv4_endrmseha.entity.CommentLike;
+import com.sparta.lv4_endrmseha.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
